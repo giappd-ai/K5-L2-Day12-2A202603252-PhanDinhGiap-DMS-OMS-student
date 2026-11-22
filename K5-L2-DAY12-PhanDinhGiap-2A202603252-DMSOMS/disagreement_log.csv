@@ -1,0 +1,57 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.37,,mine,4.4-5,Đã chốt với Tùng Anh theo bài của Giáp: giữ box tay của Giáp
+D01.png,face,eye_left,khác giá trị (IoU=0.71),open,closed,peer,4.5,"Đã sửa ở export_final_v2: open -> closed, theo kết quả review chéo"
+D01.png,face,eye_right,khác giá trị (IoU=0.71),open,closed,peer,4.5,"Đã sửa ở export_final_v2: open -> closed, theo kết quả review chéo"
+D01.png,face,gaze_zone,khác giá trị (IoU=0.71),center,other,mine,4.5,Đã chốt với Tùng Anh theo bài của Giáp: giữ gaze_zone = center
+D01.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.4-5,Đã chốt với Tùng Anh theo bài của Giáp: giữ box tay của Giáp
+D01.png,face13,right_eye_outer.occluded,khác cờ,0,1,peer,4.6,"Đã sửa ở export_final_v2: 0 -> 1, theo kết quả review chéo"
+D02.png,face,gaze_zone,khác giá trị (IoU=0.84),center,lap,mine,4.5,Đã chốt với Tùng Anh theo bài của Giáp: giữ gaze_zone = center
+D03.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.42,,mine,4.4-5,Đã chốt với Tùng Anh theo bài của Giáp: giữ box tay của Giáp
+D03.png,hand,on_wheel,khác giá trị (IoU=0.92),unknown,yes,mine,4.7,Đã chốt với Tùng Anh theo bài của Giáp: giữ on_wheel = unknown
+D03.png,face,eye_left,khác giá trị (IoU=0.84),unknown,open,peer,4.5,"Đã sửa ở export_final_v2: unknown -> open, theo kết quả review chéo"
+D03.png,face,gaze_zone,khác giá trị (IoU=0.84),other,lap,mine,4.5,Đã chốt với Tùng Anh theo bài của Giáp: giữ gaze_zone = other
+D03.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.4-5,Đã chốt với Tùng Anh theo bài của Giáp: giữ box tay của Giáp
+D03.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ right_eye_outer.occluded = 1
+D03.png,face13,right_eye_outer.outside,khác cờ,0,1,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ right_eye_outer.outside = 0
+D03.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ right_eye_inner.occluded = 1
+D03.png,face13,right_eye_inner.outside,khác cờ,0,1,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ right_eye_inner.outside = 0
+D03.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ right_eye_upper.occluded = 1
+D03.png,face13,right_eye_upper.outside,khác cờ,0,1,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ right_eye_upper.outside = 0
+D03.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ right_eye_lower.occluded = 1
+D03.png,face13,right_eye_lower.outside,khác cờ,0,1,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ right_eye_lower.outside = 0
+D04.png,person,seatbelt,khác giá trị (IoU=0.78),unknown,worn_correct,mine,4.7,Đã chốt với Tùng Anh theo bài của Giáp: dây đang thắt dở nên là unknown; giữ nguyên
+D04.png,face,eye_left,khác giá trị (IoU=0.87),unknown,open,peer,4.5,"Đã sửa ở export_final_v2: unknown -> open, theo kết quả review chéo"
+D04.png,face,eye_right,khác giá trị (IoU=0.87),unknown,open,peer,4.5,"Đã sửa ở export_final_v2: unknown -> open, theo kết quả review chéo"
+D04.png,face,gaze_zone,khác giá trị (IoU=0.87),cluster,mirror_c,mine,4.5,Đã chốt với Tùng Anh theo bài của Giáp: giữ gaze_zone = cluster
+D05.png,face,eye_left,khác giá trị (IoU=0.57),unknown,open,mine,4.5,Đã chốt với Tùng Anh theo bài của Giáp: giữ eye_left = unknown
+D05.png,face,eye_right,khác giá trị (IoU=0.57),unknown,open,mine,4.5,Đã chốt với Tùng Anh theo bài của Giáp: giữ eye_right = unknown
+D05.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ left_eye_outer.occluded = 1
+D05.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ left_eye_inner.occluded = 1
+D05.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ left_eye_upper.occluded = 1
+D05.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ left_eye_lower.occluded = 1
+D05.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ right_eye_outer.occluded = 1
+D05.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ right_eye_inner.occluded = 1
+D05.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ right_eye_upper.occluded = 1
+D05.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ right_eye_lower.occluded = 1
+D05.png,face13,nose_tip.occluded,khác cờ,1,0,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ nose_tip.occluded = 1
+D05.png,face13,mouth_left.occluded,khác cờ,1,0,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ mouth_left.occluded = 1
+D05.png,face13,lip_upper.occluded,khác cờ,1,0,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ lip_upper.occluded = 1
+D05.png,face13,lip_lower.occluded,khác cờ,1,0,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ lip_lower.occluded = 1
+D06.png,frame_meta,camera_blocked,khác giá trị,no,,mine,4.3-1,"Export của Tùng Anh thiếu tag frame_meta, bạn cần bổ sung; mine giữ nguyên"
+D06.png,frame_meta,light,khác giá trị,unknown,,mine,4.3-1,"Export của Tùng Anh thiếu tag frame_meta, bạn cần bổ sung; mine giữ nguyên"
+D06.png,frame_meta,modality,khác giá trị,ir,,mine,4.3-1,"Export của Tùng Anh thiếu tag frame_meta, bạn cần bổ sung; mine giữ nguyên"
+D06.png,face,eye_right,khác giá trị (IoU=0.59),open,unknown,mine,4.5,Đã chốt với Tùng Anh theo bài của Giáp: giữ eye_right = open
+D06.png,face,glasses,khác giá trị (IoU=0.59),unknown,clear,peer,4.5,"Đã sửa ở export_final_v2: unknown -> clear, theo kết quả review chéo"
+D06.png,face13,right_eye_outer.occluded,khác cờ,0,1,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ right_eye_outer.occluded = 0
+D06.png,face13,right_eye_inner.occluded,khác cờ,0,1,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ right_eye_inner.occluded = 0
+D06.png,face13,right_eye_upper.occluded,khác cờ,0,1,peer,4.6,"Đã sửa ở export_final_v2: 0 -> 1, theo kết quả review chéo"
+D06.png,face13,right_eye_lower.occluded,khác cờ,0,1,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ right_eye_lower.occluded = 0
+D06.png,face13,mouth_left.occluded,khác cờ,1,0,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ mouth_left.occluded = 1
+D06.png,face13,lip_upper.occluded,khác cờ,1,0,mine,4.6,Đã chốt với Tùng Anh theo bài của Giáp: giữ lip_upper.occluded = 1
+S01_ir.png,object,type,khác giá trị (IoU=0.71),other,cup,mine,4.8,Đã chốt với Tùng Anh theo bài của Giáp: giữ type = other
+S01_rgb.png,object,type,khác giá trị (IoU=0.76),other,cup,mine,4.8,Đã chốt với Tùng Anh theo bài của Giáp: giữ type = other
+S02_ir.png,infant_seat,facing,khác giá trị (IoU=0.95),front,rear,mine,4.1,Đã chốt với Tùng Anh theo bài của Giáp: giữ facing = front
+S02_ir.png,child_seat,occupied,khác giá trị (IoU=0.86),unknown,no,mine,4.8,"Đã chốt với Tùng Anh theo bài của Giáp: lòng ghế tối, không rõ bên trong nên là unknown; giữ nguyên"
+S02_rgb.png,infant_seat,facing,khác giá trị (IoU=0.93),front,rear,mine,4.1,Đã chốt với Tùng Anh theo bài của Giáp: giữ facing = front
+S05_rgb.png,child_seat,occupied,khác giá trị (IoU=0.91),unknown,no,mine,4.4-1,"Đã chốt với Tùng Anh theo bài của Giáp: ghế gần như đen trên RGB nên là unknown, không suy từ ảnh IR; giữ nguyên"
+S07_rgb.png,person,seatbelt,khác giá trị (IoU=0.93),unknown,not_worn,mine,4.4-1,"Đã chốt với Tùng Anh theo bài của Giáp: người chìm trong tối trên RGB nên là unknown, không suy từ ảnh IR; giữ nguyên"

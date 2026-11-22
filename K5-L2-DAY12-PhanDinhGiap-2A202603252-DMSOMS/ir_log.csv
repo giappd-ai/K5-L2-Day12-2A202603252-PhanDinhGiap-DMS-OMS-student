@@ -1,0 +1,6 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S05_ir,IR_sim,"Cảnh đêm: trên S05_rgb ghế trẻ em rear_right (trái ảnh) gần như đen, chỉ thấy mép khi tăng sáng; trên S05_ir thấy rõ khung ghế và mặt ngồi trống",occupied,"S05_rgb ghi unknown; S05_ir ghi no vì thấy rõ ghế trống"
+S07_ir,IR_sim,"Người ghế rear_right chìm trong tối trên S07_rgb; trên S07_ir thấy rõ ngực áo, không có dải dây chéo qua vai",seatbelt,"S07_rgb ghi unknown; S07_ir ghi not_worn"
+S02_ir,IR_sim,"S02_rgb tối, ghế trẻ em rear_left chỉ thấy viền; S02_ir thấy khung ghế nhưng lòng ghế vẫn tối, có khối sáng không rõ là đệm hay vật",occupied,"giữ unknown ở cả S02_rgb và S02_ir, không suy từ ảnh kia"
+D04,real_IR,"Có đốm phản xạ LED IR trên tròng kính nhưng vẫn thấy khe mắt",eye_left,"v1 ghi unknown; export_final_v2 sửa thành open"
+D06,real_IR,"Trên NIR tròng kính trông trong, nhìn xuyên được",glasses,"v1 ghi unknown; export_final_v2 sửa thành clear"
