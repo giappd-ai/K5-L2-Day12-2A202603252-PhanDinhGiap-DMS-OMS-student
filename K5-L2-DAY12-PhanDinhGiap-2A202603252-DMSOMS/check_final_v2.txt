@@ -1,0 +1,7 @@
+File: export_final_v2.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=14, face=12, face13=6, hand=11, infant_seat=6, object=6, person=12, phone=1
+  [WARN] D06.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+Kết quả: 0 lỗi, 1 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Giải thích (schema theo coaching update: occupied có thêm yes):
+- WARN D06 eye_left: v2 đổi open -> unknown nhưng 4 điểm left_eye_* không có cờ. Chưa xử lý, cần xem lại ảnh.
